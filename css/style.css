@@ -1,0 +1,122 @@
+/*---------------------------------------------------------
+                        RESET
+---------------------------------------------------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------------------
+                        BASE
+---------------------------------------------------------*/
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: normal;
+    /* background-image: url("../assets/backgrounds/main-bg.png"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*---------------------------------------------------------
+                        Modules
+---------------------------------------------------------*/
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 95vh;
+    height: 5vh;
+    text-align: center;
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+section p {
+    margin: 50px;
+}
+
+section img {
+    margin: 25px;
+}
+
+.background {
+    background: rgba(100, 100, 100, 0.35);
+    padding: 25px;
+    width: 35vw;
+    min-height: 250px;
+    overflow: hidden;
+    margin: 50px auto auto auto;
+}
+
+#shop {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table {
+    text-align: center;
+    align-items: center;
+}
+
+#rabais {
+    font-size: 1.22rem;
+    background-color: red;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    display: none;
+}
+
+#rabais code {
+    color: #000;
+    font-weight: bold;
+}
+
+.items {
+    text-align: center;
+}
+
+.shop-item {
+    font-size: 16px;
+    width: 200px;
+    background-color: #444;
+    padding: 10px;
+    margin: 25px;
+}
+.shop-item * {
+    width: 100%;
+}
+
+.shop-item input {
+    width: 50px;
+    text-align: center;
+}
+
+.shop-item button {
+    width: 100px;
+
+}
+
+.shop-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.wip {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.wip h2 {
+    font-size: 5rem;
+}
