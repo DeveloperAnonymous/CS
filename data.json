@@ -2,27 +2,27 @@
     "shop": [
         {
             "nom": "Autocollant",
-            "prix": "4.99$",
+            "prix": "5.00$",
             "description": "Obtenez un autocollant du Ku Klux Klan",
             "photo": "sticker.png"
         },
         {
-            "nom": "Chapeau pointu",
-            "prix": "9.99$",
-            "description": "Obtenez le chapeau blanc classique du Ku Klux Klan",
-            "photo": "chapeau.png"
-        },
-        {
-            "nom": "Robe blanche",
-            "prix": "14.99$",
+            "nom": "Habit de Klansman",
+            "prix": "5.00$",
             "description": "Obtenez la robe blanche classique du Ku Klux Klan",
             "photo": "robe.png"
         },
         {
+            "nom": "Sac de transport",
+            "prix": "1.00$",
+            "description": "Obtenez la robe blanche, le chapeau ainsi que le sac de transport",
+            "photo": "sacARobeEtChapeau.png"
+        },
+        {
             "nom": "Starter Pack",
-            "prix": "24.99$",
-            "description": "Obtenez la robe blanche, le chapeau ainsi qu'un autocollant",
-            "photo": "robe.png"
+            "prix": "10.00$",
+            "description": "Obtenez la robe blanche, le chapeau ainsi que le sac de transport",
+            "photo": "starter_pack.png"
         }
     ],
     "promotions": [

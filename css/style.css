@@ -46,6 +46,9 @@ section p {
 section img {
     margin: 25px;
 }
+section img:hover {
+    transform: scale(1.5);
+}
 
 .background {
     background: rgba(100, 100, 100, 0.35);
@@ -90,6 +93,7 @@ section img {
 .shop-item {
     font-size: 16px;
     width: 200px;
+    height: 350px;
     background-color: #444;
     padding: 10px;
     margin: 25px;
