@@ -13,7 +13,7 @@ body {
     color: whitesmoke;
     font-size: 1rem;
     font-weight: normal;
-    /* background-image: url("../assets/backgrounds/main-bg.png"); */
+    background-image: url("../assets/backgrounds/main-bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
