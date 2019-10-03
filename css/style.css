@@ -53,7 +53,7 @@ section img:hover {
 .background {
     background: rgba(100, 100, 100, 0.35);
     padding: 25px;
-    width: 35vw;
+    width: 25vw;
     min-height: 250px;
     overflow: hidden;
     margin: 50px auto auto auto;
@@ -93,7 +93,6 @@ section img:hover {
 .shop-item {
     font-size: 16px;
     width: 200px;
-    height: 350px;
     background-color: #444;
     padding: 10px;
     margin: 25px;

@@ -3,25 +3,25 @@
         {
             "nom": "Autocollant",
             "prix": "5.00$",
-            "description": "Obtenez un autocollant du Ku Klux Klan",
+            "description": "Obtenez un autocollant du Ku Klux Klan!",
             "photo": "sticker.png"
         },
         {
-            "nom": "Habit de Klansman",
+            "nom": "Robe de Klansman",
             "prix": "5.00$",
-            "description": "Obtenez la robe blanche classique du Ku Klux Klan",
+            "description": "Obtenez un habit de Klansman!",
             "photo": "robe.png"
         },
         {
             "nom": "Sac de transport",
             "prix": "1.00$",
-            "description": "Obtenez la robe blanche, le chapeau ainsi que le sac de transport",
-            "photo": "sacARobeEtChapeau.png"
+            "description": "Obtenez le sac de transport pour votre  habit!",
+            "photo": "sacTransport.png"
         },
         {
             "nom": "Starter Pack",
             "prix": "10.00$",
-            "description": "Obtenez la robe blanche, le chapeau ainsi que le sac de transport",
+            "description": "Obtenez un habit de Klansman, un autocollant ainsi que le sac de transport!",
             "photo": "starter_pack.png"
         }
     ],
