@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    $(".img-shop").magnificPopup({type:'image'})
+        .magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        mainClass: 'mfp-img-mobile',
+        image: {
+            verticalFit: true
+        },
+        midClick: true
+    });
+
     $.ajax({
         type: "get",
         url: "data.json",
@@ -16,7 +27,7 @@ $(document).ready(function () {
             $.each(data["shop"], function (key, value) {
                 balise.append(
                     "<td><div class=\"shop-item\">" +
-                    "<img title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"> " +
+                    "<a title='" + value.description + "' class='img-shop' href='assets/shop/" + value.photo + "'><img alt='' title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"></a>" +
                     "<form action='#'>" +
                     "<label><strong>Nom:</strong> " + value.nom + "</label>" +
                     "<label><strong>Prix:</strong> " + value.prix + "</label>" +

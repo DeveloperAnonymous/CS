@@ -2,7 +2,7 @@
                         RESET
 ---------------------------------------------------------*/
 *, *:before, *:after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 /*---------------------------------------------------------
@@ -23,16 +23,26 @@ body {
 /*---------------------------------------------------------
                         Modules
 ---------------------------------------------------------*/
+nav {
+    height: 5vh;
+}
+
+nav img {
+    height: 4.5vh;
+    width: 4.5vh;
+}
+
 main {
-    margin-top: 25px;
-    margin-bottom: 100px;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    min-height: 83.5vh;
 }
 
 footer {
-    margin-top: 95vh;
-    height: 5vh;
+    padding: 1.25vh;
+    height: 2.5vh;
     text-align: center;
-    padding: 10px;
+    float: bottom;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -53,26 +63,30 @@ section img:hover {
 .background {
     background: rgba(100, 100, 100, 0.35);
     padding: 25px;
-    width: 25vw;
+    width: 35vw;
     min-height: 250px;
-    overflow: hidden;
     margin: 50px auto auto auto;
+}
+
+.container {
+    overflow: hidden;
 }
 
 #shop {
     width: 90%;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
+table {
+    text-align: center;
+}
+
 #table {
     text-align: center;
-    align-items: center;
 }
 
 #rabais {
-    margin-top: 25px;
     font-size: 1.22rem;
     background-color: red;
     width: 100%;
@@ -117,8 +131,7 @@ section img:hover {
 }
 
 .wip {
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 .wip h2 {
