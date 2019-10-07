@@ -40,7 +40,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="calendrier.html#">Calendrier</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="rangs.html#">Rangs</a>
                 </li>
                 <li class="nav-item">
@@ -66,12 +66,19 @@
 
 <main>
     <section id="register" class="bg-dark">
-        <h2>Enregistrez vous!</h2>
-        <p style="margin-top: 5px">Renseignez nous sur vous</p>
-        <form action="success.html">
-            <input class="form-control" type="text" placeholder="Nom" name="nom">
-            <input class="form-control" type="text" placeholder="Prenom" name="nom">
-        </form>
+        <section id="center">
+            <h2>Enregistrez vous!</h2>
+            <p style="margin-top: 5px">Renseignez nous sur vous</p>
+            <form action="success.html">
+                <input class="form-control" type="text" placeholder="Nom" name="nom" required>
+                <input class="form-control" type="text" placeholder="Prenom" name="prenom" required>
+                <input class="form-control" type="password" placeholder="Mot de passe" name="pwd" minlength="4" maxlength="32" required>
+                <input class="form-control" type="email" placeholder="your@email.com" name="email" required>
+                <input class="form-control" type="text" pattern="[A-Z][1-9][A-Z][-, ][1-9][A-Z][1-9]" placeholder="A1B 2C3" name="postal" required>
+                <button class="btn btn-light submit">Créer mon compte!</button>
+            </form>
+            <a class="nav-link" href="connection.html">Vous avez déjà un compte?</a>
+        </section>
     </section>
 </main>
 
@@ -80,7 +87,6 @@
 <footer class="bg-dark align-middle">
     <strong>© Matthew Duteau 2019</strong>
 </footer>
-
 
 
 
