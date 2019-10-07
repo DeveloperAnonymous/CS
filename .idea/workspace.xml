@@ -42,19 +42,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/js/index.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ecole\Client-Serveur\Projet 1" />
+      <recent name="E:\Ecole\Client-Serveur\Projet 1\css" />
+      <recent name="E:\Ecole\Client-Serveur\Projet 1\js" />
+      <recent name="H:\Ecole\Client-Serveur\Projet 1\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\Ecole\Client-Serveur\Projet 1" />
       <recent name="H:\Ecole\Client-Serveur\Projet 1\js" />
       <recent name="H:\Ecole\Client-Serveur\Projet 1\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Ecole\Client-Serveur\Projet 1\css" />
-      <recent name="E:\Ecole\Client-Serveur\Projet 1\js" />
-      <recent name="E:\Ecole\Client-Serveur\Projet 1" />
-      <recent name="H:\Ecole\Client-Serveur\Projet 1\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +87,7 @@
       <workItem from="1570056456607" duration="4885000" />
       <workItem from="1570071257703" duration="4260000" />
       <workItem from="1570115576116" duration="6861000" />
-      <workItem from="1570133777009" duration="600000" />
+      <workItem from="1570133777009" duration="3236000" />
     </task>
     <servers />
   </component>
