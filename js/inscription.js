@@ -1,15 +1,12 @@
 $(document).ready(function () {
-    $('#submit').on('click', function () {
-        $('#form').jqxValidator('validate');
+    let form = $("#form");
+    $('.submit').on('click', function () {
+        form.jqxValidator('validate');
+        if (form.valid()) {
+            form.submit();
+        }
     });
-    $('#form').on('validationSuccess', function (event) {
-        window.location.href = "./success.html";
-        window.reload();
-    });
-    $('#form').on('validationError', function (event) {
-        alert('Error while validating!');
-    });
-    $("#form").jqxValidator({
+    form.jqxValidator({
         rules: [
             {
                 input: '#nom',
@@ -78,12 +75,6 @@ $(document).ready(function () {
                 message: 'Adresse email non valide!',
                 action: 'keyup',
                 rule: 'email'
-            },
-            {
-                input: '#zip',
-                message: 'Invalid zip code!',
-                action: 'valuechanged, blur',
-                rule: 'zipCode'
             }
         ]
     });
