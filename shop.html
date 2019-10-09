@@ -13,9 +13,6 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- Magnific-Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- CSS & JS files -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -41,8 +38,12 @@
                         <li><a class="dropdown-item" href="index.html#religion">Livre religieux</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="calendrier.html#">Calendrier</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="wip.html#">Calendrier</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="wip.html">Événement importants</a></li>
+                        <li><a class="dropdown-item" href="wip.html">Dates de rassemblement</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="rangs.html#">Rangs</a>
@@ -51,7 +52,7 @@
                     <a class="nav-link" href="shop.html#">Magasin</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="contacter.html#">Nous Joindre</a>
+                    <a class="nav-link" href="wip.html#">Nous Joindre</a>
                 </li>
             </ul>
 
@@ -71,21 +72,17 @@
 <main>
     <div id="rabais"></div>
     <section id="shop">
-        <table>
-            <tbody id="table">
-                <tr id="items">
-                    <!--<td>
-                        <div class="shop-item">
-                            <img src="assets/backgrounds/icon.png">
-                            <label>Nom: Sticker du KKK</label>
-                            <label>Prix: 19,99$</label>
-                            <label>Quantity</label>
-                            <input type="number" required placeholder="1">
-                        </div>
-                    </td>-->
-                </tr>
-            </tbody>
-        </table>
+        <article id="items" class="row justify-content-center">
+            <!--
+            <div class="shop-item">
+                <img src="assets/backgrounds/icon.png">
+                <label>Nom: Sticker du KKK</label>
+                <label>Prix: 19,99$</label>
+                <label>Quantity</label>
+                <input type="number" required placeholder="1">
+            </div>
+            -->
+        </article>
     </section>
 </main>
 

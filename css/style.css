@@ -82,10 +82,6 @@ section img:hover {
     margin-right: auto;
 }
 
-table {
-    text-align: center;
-}
-
 .err {
     transform: translateY(25%);
     width: 100%;
@@ -98,10 +94,6 @@ table {
     font-size: 10rem;
 }
 
-#table {
-    text-align: center;
-}
-
 #rabais {
     font-size: 1.22rem;
     background-color: red;
@@ -109,6 +101,7 @@ table {
     height: fit-content;
     text-align: center;
     display: none;
+    margin-bottom: 25px;
 }
 
 #rabais code {
@@ -144,29 +137,25 @@ table {
     width: 8vw;
 }
 
-.items {
+#items {
     text-align: center;
 }
 
 .shop-item {
     font-size: 16px;
-    width: 200px;
     background-color: #444;
+    margin: 10px;
     padding: 10px;
-    margin: 25px;
-}
-
-.shop-item * {
-    width: 100%;
 }
 
 .shop-item input {
-    width: 50px;
+    width: 50%;
     text-align: center;
 }
 
 .shop-item button {
-    width: 100px;
+    width: 75%;
+    padding: 3%;
 }
 
 .shop-item img {

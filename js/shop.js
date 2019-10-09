@@ -15,14 +15,14 @@ $(document).ready(function () {
             balise.html("");
             $.each(data["shop"], function (key, value) {
                 balise.append(
-                    "<td><div class=\"shop-item\">" +
-                    "<a title='" + value.description + "' class='img-shop' href='assets/shop/" + value.photo + "'><img alt='' title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"></a>" +
+                    "<div class='shop-item col-10 col-sm-8 col-md-5 col-lg-3 col-xl-2'>" +
+                    "<a title='" + value.description + "' class='img-shop'><img alt='' title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"></a>" +
                     "<form action='#'>" +
-                    "<label><strong>Nom:</strong> " + value.nom + "</label>" +
-                    "<label><strong>Prix:</strong> " + value.prix + "</label>" +
-                    "<label for='qty'><strong>Quantité</strong> <input required type=\"number\" min='1' max='10' placeholder=\"0\" name='qty'></label>" +
-                    "<button class='btn btn-dark' type='submit'>Acheter!</button></form>" +
-                    "</div></td>"
+                    "<label><strong>Nom:</strong> " + value.nom + "</label><br>" +
+                    "<label><strong>Prix:</strong> " + value.prix + "</label><br>" +
+                    "<label for='qty'><strong>Quantité</strong> <input required type=\"number\" min='1' max='10' placeholder=\"0\" name='qty'></label><br>" +
+                    "<button class='btn btn-dark' href='success.html'>Acheter!</button></form>" +
+                    "</div>"
                 );
             });
 
