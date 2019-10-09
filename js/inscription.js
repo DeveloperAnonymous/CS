@@ -1,9 +1,10 @@
 $(document).ready(function () {
-    let form = $("#form");
-    $('.submit').on('click', function () {
+    let valid = false;
+    let form = $('#form');
+    form.submit(function (e) {
         form.jqxValidator('validate');
-        if (form.valid()) {
-            form.submit();
+        if (!valid) {
+            e.preventDefault();
         }
     });
     form.jqxValidator({
@@ -76,6 +77,9 @@ $(document).ready(function () {
                 action: 'keyup',
                 rule: 'email'
             }
-        ]
+        ],
+        onSuccess: function () {
+            valid = true
+        }
     });
 });
