@@ -1,8 +1,13 @@
 $(document).ready(function () {
-    $('.submit').on('click', function () {
-        $('#form').jqxValidator('validate', form);
+    let valid = false;
+    let form = $('#form');
+    form.submit(function (e) {
+        form.jqxValidator('validate');
+        if (!valid) {
+            e.preventDefault();
+        }
     });
-    $("#form").jqxValidator({
+    form.jqxValidator({
         rules: [
             {
                 input: '#pwd',
@@ -28,6 +33,9 @@ $(document).ready(function () {
                 action: 'keyup',
                 rule: 'email'
             }
-        ]
+        ],
+        onSuccess: function () {
+            valid = true
+        }
     });
 });
