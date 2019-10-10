@@ -231,3 +231,7 @@ section.vertical-align {
     display: flex;
     float: left;
 }
+
+.quote {
+    color: whitesmoke !important;
+}
