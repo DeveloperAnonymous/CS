@@ -13,6 +13,10 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- jqwidgets -->
+    <link rel="stylesheet" href="js/jqwidgets/styles/jqx.base.css" type="text/css">
+    <script type="text/javascript" src="js/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxscrollview.js"></script>
     <!-- CSS & JS files -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -70,23 +74,20 @@
 </header>
 
 <main>
-    <section class="container">
-        <section class="container background">
-            <h2>Grand Wizard</h2>
-            <p>
-                <img align="left" width="200" src="assets/robes/Grand_Wizard.png" alt="Grand Dragon">
-                Le <strong>Grand Wizard</strong> est le rang le plus élevé au sein du KKK. Il est donc celui qui dirige l'organisation au complet. Sa robe est de couleur pourpre.
-            </p>
-        </section>
-        <section class="container background">
-            <h2>Grand Dragon/Imperial Representative</h2>
-            <img align="middle" width="200" src="assets/robes/Grand_Dragon.png" alt="Grand Dragon">
-            <img align="middle" width="200" src="assets/robes/Imperial_Representative.png" alt="Grand Dragon">
-
-            <p>
-                Le <strong>Grand Dragon/Imperial Representative</strong> est le responsable d'un État, au même niveau qu'un gouverneur. Sa robe est de couleur Verte ou Orange
-            </p>
-        </section>
+    <section class="justify-content-center vertical-align">
+            <div id="photoGallery">
+                <div class="objetGallery">
+                    <img src="assets/robes/Grand_Wizard.png" alt="Grand Dragon">
+                    <h2>Grand Wizard</h2>
+                    <p>Le <strong>Grand Wizard</strong> est le rang le plus élevé au sein du KKK. Il est donc celui qui dirige l'organisation au complet. Sa robe est de couleur pourpre.</p>
+                </div>
+                <div class="objetGallery">
+                    <img src="assets/robes/Grand_Dragon.png" alt="Grand Dragon">
+                    <h2>Grand Dragon</h2>
+                    <p>Le <strong>Grand Dragon</strong> est le responsable d'un État, au même niveau qu'un gouverneur. Sa robe est de couleur Orange. <br><br>Fait de satin, garni de galon militaire et brodé de soie. Cordon et pompons de soie.</p>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 

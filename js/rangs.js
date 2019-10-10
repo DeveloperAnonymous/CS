@@ -1,4 +1,3 @@
-function click(self) {
-    self.height = self.height * 2;
-    self.width = self.width * 2;
-}
+$(document).ready(function () {
+    $("#photoGallery").jqxScrollView({height: '450', width: '500', slideShow: false});
+});

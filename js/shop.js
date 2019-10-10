@@ -16,7 +16,7 @@ $(document).ready(function () {
             $.each(data["shop"], function (key, value) {
                 balise.append(
                     "<div class='shop-item col-10 col-sm-8 col-md-5 col-lg-3 col-xl-2'>" +
-                    "<a title='" + value.description + "' class='img-shop'><img alt='' title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"></a>" +
+                    "<a title='" + value.description + "' class='img-shop'><img  class=\"hover\" alt='' title='" + value.description + "' src=\"assets/shop/" + value.photo + "\"></a>" +
                     "<form action='success.html'>" +
                     "<label><strong>Nom:</strong> " + value.nom + "</label><br>" +
                     "<label><strong>Prix:</strong> " + value.prix + "</label><br>" +

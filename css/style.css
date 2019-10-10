@@ -13,7 +13,7 @@ body {
     color: whitesmoke;
     font-size: 1rem;
     font-weight: normal;
-    /* background-image: url("../assets/backgrounds/main-bg.png"); */
+    background-image: url("../assets/backgrounds/main-bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,8 @@ section p {
 section img {
     margin: 25px;
 }
-section img:hover {
+
+.hover:hover {
     transform: scale(1.5);
 }
 
@@ -68,12 +69,15 @@ section img:hover {
     margin: 50px auto auto auto;
 }
 
-.container {
-    overflow: hidden;
+.center {
+    margin: auto;
 }
 
-#center {
-    margin: auto;
+.vertical-align {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #shop {
@@ -173,4 +177,26 @@ section img:hover {
 
 .dropdown-item {
     width: auto !important;
+}
+
+#photoGallery {
+    margin: auto;
+}
+
+.objetGallery h2 {
+    margin: 20px;
+    text-align: left;
+}
+
+.objetGallery p {
+    margin: 20px;
+    text-align: left;
+}
+
+.objetGallery img {
+    text-align: left;
+    width: auto;
+    height: 300px;
+    display: flex;
+    float: left;
 }

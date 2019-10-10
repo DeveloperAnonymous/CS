@@ -79,7 +79,7 @@ $(document).ready(function () {
             }
         ],
         onSuccess: function () {
-            valid = true
+            valid = true;
         }
     });
 });
