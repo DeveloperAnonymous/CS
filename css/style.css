@@ -35,7 +35,7 @@ nav img {
 main {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
-    min-height: 83.5vh;
+    min-height: 83.4vh;
 }
 
 footer {
@@ -141,6 +141,36 @@ section img {
     width: 8vw;
 }
 
+section.vertical-align {
+    width: 60%;
+}
+
+#connect {
+    text-align: center;
+    min-height: 35vh;
+    height: auto; /* Trop paresseux pour set une size définitive et la changer a chaque fois que je rajoute quelque chose */
+    width: 22vw;
+    padding: 25px;
+    border-radius: 20%;
+}
+
+#connect form {
+    text-align: center;
+    margin: 10px;
+}
+
+#connect input, button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 10vw;
+    height: 2vh;
+}
+
+#connect button {
+    width: 8vw;
+}
 #items {
     text-align: center;
 }
