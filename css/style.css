@@ -35,7 +35,8 @@ nav img {
 main {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
-    min-height: 83.4vh;
+    min-height: 85vh;
+    margin-top: 5vh;
 }
 
 footer {
